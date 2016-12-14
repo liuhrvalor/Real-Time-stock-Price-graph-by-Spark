@@ -1,4 +1,7 @@
 
+#dependency
+pip install -r requirements.txt
+
 #stop and remove existing docker container
 docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
